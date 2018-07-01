@@ -1,0 +1,60 @@
+Instrução do projeto 
+
+1 - Deve seguir a estrutura pronta da arvore, apenas acrescentar lista encadeada em cada nó
+
+2 - Um nó recebe o cpf (key chave), este nó chave tem um ponteiro para a lista que tem o seguintes atributos (Nome, endereço, telefone)
+
+3 - Para opcao de inserção será numero (1 um), remocao (2 dois),  e 0 para sair.
+
+4 - Os dados devem ser lidos por arquivo txt. aqui um exemplo de entrada 
+	
+	1
+	20299933111
+	João da Silva
+	-
+	6792925678
+	1
+	00199876523
+	Manezinho de Almeida
+	Rua Pedro Celestino, 234. Centro.
+	6733547878
+	1
+	00256589841
+	Pafuncia Cruz Credo
+	Rua Afonso Pena, n. 1000, ap.67. Centro.
+	6798566574
+	3
+	20299933111
+	João da Silva Junior
+	Rua Manoel da Costa Lima, n.200. Ipiranga.
+	6792925678
+	1
+	88172727272
+	Jovelino do Espirito Santo
+	Rua Marco Feliz, n.101. Morada do Sol.
+	6733977878
+	2
+	00199876523
+	0
+
+5 - exemplo de saida ordenada pela chave (cpf)
+
+	00256589841
+	Pafuncia Cruz Credo
+	Rua Afonso Pena, n. 1000, ap.67. Centro.
+	6798566574
+	20299933111
+	João da Silva Junior
+	Rua Manoel da Costa Lima, n.200. Ipiranga.
+	6792925678
+	88172727272
+	Jovelino do Espirito Santo
+	Rua Marco Feliz, n.101. Morada do Sol.
+	6733977878
+
+6 - Lingugem c++ sem métodos virtuais ou uso de template, código deve passar sem erros na seguinte flag 
+	g++ -Wall -g *.c 
+
+7 - Obs (posso disponibizar o código pronto da arvore, falta apenas implementação da lista e leitura de arquivo)
+
+8 - Data ser entregue até 02/06/2018 as 19:00hrs
